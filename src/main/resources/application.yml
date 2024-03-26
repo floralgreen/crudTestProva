@@ -11,13 +11,3 @@ spring:
     show_sql: true
     hibernate:
       ddl-auto: create-drop
-
-      spring:
-        profiles: test
-        datasource:
-          url: jdbc:mysql://127.0.0.1:3306/devdb
-          username: root
-          password: g4tt1n0str0nz0
-          driver-class-name: com.mysql.cj.jdbc.Driver
-        jpa:
-          hibernate.ddl-auto: create-drop
